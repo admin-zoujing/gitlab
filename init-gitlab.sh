@@ -3,8 +3,6 @@
 
 chmod -R 777 /usr/local/src/memcached
 #时间时区同步，修改主机名
-ln -sf /usr/share/zoneinfo/Asia/Shanghai /etc/localtime
-
 ntpdate cn.pool.ntp.org
 hwclock --systohc
 echo "*/30 * * * * root ntpdate -s 3.cn.poop.ntp.org" >> /etc/crontab
@@ -34,6 +32,3 @@ echo Yang > README.md
 git add README.md
 git commit -m “add README”
 git push -u origin master
-
-
-
