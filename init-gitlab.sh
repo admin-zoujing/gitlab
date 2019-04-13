@@ -40,6 +40,19 @@ git push -u origin master
 #查看所有历史记录：git reflog   还原数据：git reset --hard 5cee15b 
 #某个文件内容还原: git checkout -- readme.txt
 
+#管理分支结构
+创建分支：git branch linuxprobe
+切换分支：git checkout linuxprobe
+查看分支: git branch
+合并分支: git merge linuxprobe
+合并删除分支：git branch -d linuxprobe
+查看分支: git branch
+
+#内容冲突
+创建分支切换该分支：git checkout -b 分支名称
+查看Git历史提交记录(可以看到分支的变化)：git log --graph --pretty=oneline --abbrev-commit
+
+
 
 
 
