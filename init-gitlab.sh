@@ -32,3 +32,17 @@ echo Yang > README.md
 git add README.md
 git commit -m “add README”
 git push -u origin master
+
+#查看工作环境：git config --list
+#查看仓库状态：git status
+#直接删除数据：git rm -f database 
+#修改文件名称: git mv readme.txt introduction.txt
+#查看历史记录: git log (-p差异 -2近二次 --stat增减行 --pretty=fuller详细 )
+#还原数据指针：git reset --hard HEAD^ （上一个提交版本叫HEAD^，上上一个版本叫做HEAD^^，一般用HEAD~5来表示往上数第五个提交版本）
+#查看所有历史记录：git reflog   还原数据：git reset --hard 5cee15b 
+#某个文件内容还原: git checkout -- readme.txt
+
+
+
+
+
