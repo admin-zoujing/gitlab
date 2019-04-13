@@ -1,7 +1,5 @@
 #! /bin/bash
 #centos7.4 gitlab安装脚本
-
-chmod -R 777 /usr/local/src/memcached
 #时间时区同步，修改主机名
 ntpdate cn.pool.ntp.org
 hwclock --systohc
